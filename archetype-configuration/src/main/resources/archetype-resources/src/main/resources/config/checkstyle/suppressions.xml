@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+This file is part of ${name}.
+
+${name} is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+${name} is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with ${name}.  If not, see <https://www.gnu.org/licenses/>.
+-->
+<!DOCTYPE suppressions PUBLIC "-//Puppy Crawl//DTD Suppressions 1.1//EN" "http://www.puppycrawl.com/dtds/suppressions_1_1.dtd">
+<suppressions>
+    <suppress checks="JavadocMethod" files="[\\/]src[\\/]test[\\/].*"/>
+    <suppress checks="LineLength" files="[\\/]src[\\/]test[\\/].*"/>
+    <suppress checks="JavadocType" files="[\\/]src[\\/]test[\\/].*"/>
+    <suppress checks="JavadocVariable" files="[\\/]src[\\/]test[\\/].*"/>
+    <suppress checks="JavadocStyle" files="[\\/]src[\\/]test[\\/].*"/>
+    <suppress checks="ConstantName" files="[\\/]src[\\/]test[\\/].*"/>
+    <suppress checks="LocalFinalVariableName" files="[\\/]src[\\/]test[\\/].*"/>
+    <suppress checks="LocalVariableName" files="[\\/]src[\\/]test[\\/].*"/>
+    <suppress checks="MemberName" files="[\\/]src[\\/]test[\\/].*"/>
+    <suppress checks="MethodName" files="[\\/]src[\\/]test[\\/].*"/>
+    <suppress checks="PackageName" files="[\\/]src[\\/]test[\\/].*"/>
+    <suppress checks="ParameterName" files="[\\/]src[\\/]test[\\/].*"/>
+    <suppress checks="StaticVariableName" files="[\\/]src[\\/]test[\\/].*"/>
+    <suppress checks="TypeName" files="[\\/]src[\\/]test[\\/].*"/>
+    <suppress checks="AvoidStarImport" files="[\\/]src[\\/]test[\\/].*"/>
+    <suppress checks="IllegalImport" files="[\\/]src[\\/]test[\\/].*"/>
+    <suppress checks="RedundantImport" files="[\\/]src[\\/]test[\\/].*"/>
+    <suppress checks="MethodLength" files="[\\/]src[\\/]test[\\/].*"/>
+    <suppress checks="ParameterNumber" files="[\\/]src[\\/]test[\\/].*"/>
+    <suppress checks="EmptyForIteratorPad" files="[\\/]src[\\/]test[\\/].*"/>
+    <suppress checks="MethodParamPad" files="[\\/]src[\\/]test[\\/].*"/>
+    <suppress checks="ParenPad" files="[\\/]src[\\/]test[\\/].*"/>
+    <suppress checks="TypecastParenPad" files="[\\/]src[\\/]test[\\/].*"/>
+    <suppress checks="WhitespaceAround" files="[\\/]src[\\/]test[\\/].*"/>
+    <suppress checks="ModifierOrder" files="[\\/]src[\\/]test[\\/].*"/>
+    <suppress checks="RedundantModifier" files="[\\/]src[\\/]test[\\/].*"/>
+    <suppress checks="AvoidNestedBlocks" files="[\\/]src[\\/]test[\\/].*"/>
+    <suppress checks="EmptyBlock" files="[\\/]src[\\/]test[\\/].*"/>
+    <suppress checks="LeftCurly" files="[\\/]src[\\/]test[\\/].*"/>
+    <suppress checks="NeedBraces" files="[\\/]src[\\/]test[\\/].*"/>
+    <suppress checks="RightCurly" files="[\\/]src[\\/]test[\\/].*"/>
+    <suppress checks="AvoidInlineConditionals" files="[\\/]src[\\/]test[\\/].*"/>
+    <suppress checks="EmptyStatement" files="[\\/]src[\\/]test[\\/].*"/>
+    <suppress checks="EqualsHashCode" files="[\\/]src[\\/]test[\\/].*"/>
+    <suppress checks="HiddenField" files="[\\/]src[\\/]test[\\/].*"/>
+    <suppress checks="IllegalInstantiation" files="[\\/]src[\\/]test[\\/].*"/>
+    <suppress checks="InnerAssignment" files="[\\/]src[\\/]test[\\/].*"/>
+    <suppress checks="MagicNumber" files="[\\/]src[\\/]test[\\/].*"/>
+    <suppress checks="MissingSwitchDefault" files="[\\/]src[\\/]test[\\/].*"/>
+    <suppress checks="SimplifyBooleanExpression" files="[\\/]src[\\/]test[\\/].*"/>
+    <suppress checks="SimplifyBooleanReturn" files="[\\/]src[\\/]test[\\/].*"/>
+    <suppress checks="DesignForExtension" files="[\\/]src[\\/]test[\\/].*"/>
+    <suppress checks="FinalClass" files="[\\/]src[\\/]test[\\/].*"/>
+    <suppress checks="HideUtilityClassConstructor" files="[\\/]src[\\/]test[\\/].*"/>
+    <suppress checks="InterfaceIsType" files="[\\/]src[\\/]test[\\/].*"/>
+    <suppress checks="VisibilityModifier" files="[\\/]src[\\/]test[\\/].*"/>
+    <suppress checks="ArrayTypeStyle" files="[\\/]src[\\/]test[\\/].*"/>
+    <suppress checks="FinalParameters" files="[\\/]src[\\/]test[\\/].*"/>
+    <suppress checks="TodoComment" files="[\\/]src[\\/]test[\\/].*"/>
+    <suppress checks="UpperEll" files="[\\/]src[\\/]test[\\/].*"/>
+    <suppress checks="MissingOverride" files="[\\/]src[\\/]test[\\/].*"/>
+    <suppress checks="StringLiteralEquality" files="[\\/]src[\\/]test[\\/].*"/>
+    <suppress checks="EqualsHashCode" files="[\\/]src[\\/]test[\\/].*"/>
+    <suppress checks="CovariantEquals" files="[\\/]src[\\/]test[\\/].*"/>
+    <suppress checks="AnnotationLocation" files="[\\/]src[\\/]test[\\/].*"/>
+    <suppress checks="NewlineAtEndOfFile" files="[\\/]src[\\/]test[\\/].*"/>
+    <suppress checks="FileLength" files="[\\/]src[\\/]test[\\/].*"/>
+</suppressions>
