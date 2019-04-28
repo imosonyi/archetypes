@@ -45,23 +45,21 @@ along with ${name}.  If not, see <https://www.gnu.org/licenses/>.
     <template autoinsert="false" context="newtype_context"
         deleted="false" description="Newly created files" enabled="true"
         id="org.eclipse.jdt.ui.text.codetemplates.newtype" name="newtype">${filecomment}
-        ${package_declaration}
+${package_declaration}
 
-        ${typecomment}
-        ${type_declaration}
-    </template>
+${typecomment}
+${type_declaration}</template>
     <template autoinsert="false" context="typecomment_context"
         deleted="false" description="Comment for created types" enabled="true"
         id="org.eclipse.jdt.ui.text.codetemplates.typecomment"
         name="typecomment">/**
-        * @author Mosonyi István
-        *         mosonyi15p@yahoo.com
-        *         +36 20 275 1263
-        * @date ${date}
-        *
-        * ${tags}
-        */
-    </template>
+ * @author Mosonyi István
+ *         mosonyi15p@yahoo.com
+ *         +36 20 275 1263
+ * @date ${date}
+ *
+ * ${tags}
+ */</template>
     <template autoinsert="true" context="getterbody_context"
         deleted="false" description="Code in created getters" enabled="true"
         id="org.eclipse.jdt.ui.text.codetemplates.getterbody"
@@ -119,22 +117,21 @@ along with ${name}.  If not, see <https://www.gnu.org/licenses/>.
         deleted="false" description="Comment for created Java files"
         enabled="true" id="org.eclipse.jdt.ui.text.codetemplates.filecomment"
         name="filecomment">/*
-        * This file is part of ${name}.
-        *
-        * ${name} is free software: you can redistribute it and/or modify
-        * it under the terms of the GNU General Public License as published by
-        * the Free Software Foundation, either version 3 of the License, or
-        * (at your option) any later version.
-        *
-        * ${name} is distributed in the hope that it will be useful,
-        * but WITHOUT ANY WARRANTY; without even the implied warranty of
-        * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
-        * GNU General Public License for more details.
-        *
-        * You should have received a copy of the GNU General Public License
-        * along with ${name}. If not, see &lt;https://www.gnu.org/licenses/&gt;.
-        */
-    </template>
+ * This file is part of ${name}.
+ *
+ * ${name} is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ *
+ * ${name} is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with ${name}. If not, see &lt;https://www.gnu.org/licenses/&gt;.
+ */</template>
     <template autoinsert="true" context="delegatecomment_context"
         deleted="false" description="Comment for delegate methods"
         enabled="true"
