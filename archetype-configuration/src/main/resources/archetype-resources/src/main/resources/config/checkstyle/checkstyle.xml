@@ -36,7 +36,9 @@ along with ${name}.  If not, see <https://www.gnu.org/licenses/>.
         <module name="LineLength">
             <property name="max" value="120" />
         </module>
-        <module name="JavadocType" />
+        <module name="JavadocType">
+        	<property name="allowUnknownTags" value="true" />
+        </module>
         <module name="JavadocVariable">
             <property name="scope" value="protected" />
         </module>

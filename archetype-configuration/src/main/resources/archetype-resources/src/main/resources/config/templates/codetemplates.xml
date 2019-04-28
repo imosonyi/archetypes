@@ -55,8 +55,8 @@ along with ${name}.  If not, see <https://www.gnu.org/licenses/>.
         id="org.eclipse.jdt.ui.text.codetemplates.typecomment"
         name="typecomment">/**
         * @author Mosonyi István
-        * mosonyi15p@yahoo.com
-        * +36 20 275 1263
+        *         mosonyi15p@yahoo.com
+        *         +36 20 275 1263
         * @date ${date}
         *
         * ${tags}

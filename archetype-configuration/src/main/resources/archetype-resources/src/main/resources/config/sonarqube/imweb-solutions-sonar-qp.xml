@@ -75,17 +75,6 @@ along with ${name}.  If not, see <https://www.gnu.org/licenses/>.
         </rule>
         <rule>
             <repositoryKey>squid</repositoryKey>
-            <key>MaximumInheritanceDepth</key>
-            <priority>MAJOR</priority>
-            <parameters>
-                <parameter>
-                    <key>max</key>
-                    <value>5</value>
-                </parameter>
-            </parameters>
-        </rule>
-        <rule>
-            <repositoryKey>squid</repositoryKey>
             <key>MissingDeprecatedCheck</key>
             <priority>MAJOR</priority>
             <parameters />
@@ -2196,12 +2185,6 @@ along with ${name}.  If not, see <https://www.gnu.org/licenses/>.
         <rule>
             <repositoryKey>squid</repositoryKey>
             <key>S4792</key>
-            <priority>CRITICAL</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>squid</repositoryKey>
-            <key>S4797</key>
             <priority>CRITICAL</priority>
             <parameters />
         </rule>
