@@ -58,9 +58,9 @@
                 <version>${version.maven-checkstyle-plugin}</version>
                 <dependencies>
                     <dependency>
-                        <groupId>${groupId}</groupId>
-                        <artifactId>${artifactId}</artifactId>
-                        <version>${version}</version>
+                        <groupId>${project.groupId}</groupId>
+                        <artifactId>${project.artifactId}</artifactId>
+                        <version>${project.version}</version>
                     </dependency>
                 </dependencies>
                 <executions>
@@ -71,9 +71,9 @@
                         </goals>
                         <phase>verify</phase>
                         <configuration>
-                            <configLocation>config/checkstyle/checkstyle.xml</configLocation>
+                            <configLocation>config/checkstyle/imweb-solutions-checkstyle.xml</configLocation>
                             <headerLocation>config/licence/licence_header.txt</headerLocation>
-                            <suppressionsLocation>config/checkstyle/suppressions.xml</suppressionsLocation>
+                            <suppressionsLocation>config/checkstyle/imweb-solutions-suppressions.xml</suppressionsLocation>
                             <suppressionsFileExpression>${checkstyle.suppressions.file}</suppressionsFileExpression>
                             <includeResources>true</includeResources>
                             <includeTestResources>true</includeTestResources>
