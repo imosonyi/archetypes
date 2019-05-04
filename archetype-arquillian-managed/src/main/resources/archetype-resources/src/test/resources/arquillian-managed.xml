@@ -1,0 +1,7 @@
+<container qualifier="arquillian-wildfly-managed">
+    <configuration>
+        <!-- To enable debug mode please uncomment the line below. -->
+        <!-- Please make sure not to commit this in debug mode. -->
+        <!-- <property name="javaVmArguments">-Xmx1024m -Xnoagent -Djava.compiler=NONE -Xdebug -Xrunjdwp:transport=dt_socket,server=y,suspend=n,address=5005</property> -->
+    </configuration>
+</container>

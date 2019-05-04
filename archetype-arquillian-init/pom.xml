@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>hu.imwebs</groupId>
-    <artifactId>archetype-configuration</artifactId>
+    <artifactId>archetype-arquillian-init</artifactId>
     <version>1-SNAPSHOT</version>
     <packaging>maven-archetype</packaging>
 
@@ -14,7 +14,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
-
+        
         <!-- Extension versions -->
         <version.archetype-packaging>3.0.1</version.archetype-packaging>
     </properties>

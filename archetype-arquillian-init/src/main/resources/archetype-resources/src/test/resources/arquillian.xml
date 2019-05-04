@@ -1,6 +1,9 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0"
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE xml>
+<arquillian xmlns="https://jboss.org/schema/arquillian"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    xsi:schemaLocation="http://jboss.org/schema/arquillian
+                        http://jboss.org/schema/arquillian/arquillian_1_0.xsd">
     <!-- This file is part of ${name}. ${name} is free software: you can redistribute 
         it and/or modify it under the terms of the GNU General Public License as 
         published by the Free Software Foundation, either version 3 of the License, 
@@ -10,24 +13,4 @@
         GNU General Public License for more details. You should have received a copy 
         of the GNU General Public License along with ${name}. If not, see <https://www.gnu.org/licenses/>. -->
 
-    <modelVersion>4.0.0</modelVersion>
-
-    <groupId>${groupId}</groupId>
-    <artifactId>${artifactId}</artifactId>
-    <version>${version}</version>
-    <name>${name}</name>
-
-    <properties>
-        <version.junit>4.12</version.junit>
-    </properties>
-
-    <dependencies>
-        <dependency>
-            <groupId>junit</groupId>
-            <artifactId>junit</artifactId>
-            <version>${version.junit}</version>
-            <scope>test</scope>
-        </dependency>
-    </dependencies>
-
-</project>
+</arquillian>
