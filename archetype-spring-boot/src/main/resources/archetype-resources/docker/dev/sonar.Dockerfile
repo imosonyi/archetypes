@@ -1,0 +1,3 @@
+FROM sonarqube:latest
+
+ENV SONAR_ES_BOOTSTRAP_CHECKS_DISABLE true

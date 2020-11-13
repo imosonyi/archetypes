@@ -33,6 +33,13 @@
                 <include>__gitignore__</include>
             </includes>
         </fileSet>
+        <fileSet filtered="true" encoding="utf-8">
+            <directory>docker</directory>
+            <includes>
+                <include>**/*.Dockerfile</include>
+                <include>**/*.yml</include>
+            </includes>
+        </fileSet>
     </fileSets>
 
 </archetype-descriptor>
