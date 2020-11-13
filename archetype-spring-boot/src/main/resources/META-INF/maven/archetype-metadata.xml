@@ -49,7 +49,6 @@
             <directory>docker</directory>
             <includes>
                 <include>**/*.Dockerfile</include>
-                <include>**/*.yml</include>
             </includes>
         </fileSet>
         <fileSet encoding="utf-8">
