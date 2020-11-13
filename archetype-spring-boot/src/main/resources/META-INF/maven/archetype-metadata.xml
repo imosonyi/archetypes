@@ -40,6 +40,12 @@
                 <include>**/*.yml</include>
             </includes>
         </fileSet>
+        <fileSet encoding="utf-8">
+            <directory>checkstyle</directory>
+            <includes>
+                <include>*.xml</include>
+            </includes>
+        </fileSet>
     </fileSets>
 
 </archetype-descriptor>
