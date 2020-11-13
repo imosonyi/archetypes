@@ -3,6 +3,7 @@ WORKDIR /usr/src/app
 COPY pom.xml .
 RUN mvn dependency:go-offline
 COPY src/ ./src/
+COPY checkstyle/ ./checkstyle/
 RUN mvn clean verify
 
 FROM adoptopenjdk/openjdk11:latest

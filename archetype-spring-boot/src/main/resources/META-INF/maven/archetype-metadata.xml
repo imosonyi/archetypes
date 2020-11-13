@@ -9,6 +9,12 @@
         <requiredProperty key="applicationClass">
             <defaultValue>Application</defaultValue>
         </requiredProperty>
+        <requiredProperty key="serverPort">
+            <defaultValue>8080</defaultValue>
+        </requiredProperty>
+        <requiredProperty key="managementPort">
+            <defaultValue>9080</defaultValue>
+        </requiredProperty>
         <requiredProperty key="gitignore">
             <defaultValue>.gitignore</defaultValue>
         </requiredProperty>
@@ -19,6 +25,12 @@
             <directory>src/main/java</directory>
             <includes>
                 <include>**/*.java</include>
+            </includes>
+        </fileSet>
+        <fileSet filtered="true" encoding="utf-8">
+            <directory>src/main/resources</directory>
+            <includes>
+                <include>*.properties</include>
             </includes>
         </fileSet>
         <fileSet filtered="true" packaged="true" encoding="utf-8">
