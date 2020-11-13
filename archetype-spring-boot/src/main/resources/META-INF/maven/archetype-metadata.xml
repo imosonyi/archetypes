@@ -9,6 +9,9 @@
         <requiredProperty key="applicationClass">
             <defaultValue>Application</defaultValue>
         </requiredProperty>
+        <requiredProperty key="gitignore">
+            <defaultValue>.gitignore</defaultValue>
+        </requiredProperty>
     </requiredProperties>
 
     <fileSets>
@@ -22,6 +25,12 @@
             <directory>src/test/java</directory>
             <includes>
                 <include>**/*.java</include>
+            </includes>
+        </fileSet>
+        <fileSet encoding="utf-8">
+            <directory></directory>
+            <includes>
+                <include>__gitignore__</include>
             </includes>
         </fileSet>
     </fileSets>
