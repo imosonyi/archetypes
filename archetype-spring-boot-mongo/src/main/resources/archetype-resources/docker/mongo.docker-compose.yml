@@ -1,0 +1,30 @@
+version: "3.8"
+
+services:
+  ${mongoHost}:
+    container_name: ${mongoHost}
+    build:
+      context: ./
+      dockerfile: mongo.Dockerfile
+    volumes:
+      - data-${mongoHost}:/data/db
+    networks:
+      - network-${mongoHost}
+    ports:
+      - ${mongoPort}:${mongoPort}
+  ${artifactId}:
+    networks:
+      - network-${mongoHost}
+    depends_on:
+      - ${mongoHost}
+    environment:
+      - WAIT_HOSTS=${mongoHost}:${mongoPort}
+
+volumes:
+  data-${mongoHost}:
+    name: data-${mongoHost}
+
+networks:
+  network-${mongoHost}:
+    name: network-${mongoHost}
+    driver: bridge

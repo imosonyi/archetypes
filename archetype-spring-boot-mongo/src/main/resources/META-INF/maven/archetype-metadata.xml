@@ -2,21 +2,27 @@
         xmlns="http://maven.apache.org/plugins/maven-archetype-plugin/archetype-descriptor/1.0.0"
         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         xsi:schemaLocation="http://maven.apache.org/plugins/maven-archetype-plugin/archetype-descriptor/1.0.0 http://maven.apache.org/xsd/archetype-descriptor-1.0.0.xsd"
-        name="archetype-spring-boot"
-        partial="false">
+        name="archetype-spring-boot-mongo"
+        partial="true">
 
     <requiredProperties>
-        <requiredProperty key="applicationClass">
-            <defaultValue>Application</defaultValue>
+        <requiredProperty key="mongoHost">
+            <defaultValue>mongo-${artifactId}</defaultValue>
         </requiredProperty>
-        <requiredProperty key="serverPort">
-            <defaultValue>8080</defaultValue>
+        <requiredProperty key="mongoPort">
+            <defaultValue>27017</defaultValue>
         </requiredProperty>
-        <requiredProperty key="managementPort">
-            <defaultValue>9080</defaultValue>
+        <requiredProperty key="mongoDatabase">
+            <defaultValue>${artifactId}</defaultValue>
         </requiredProperty>
-        <requiredProperty key="gitignore">
-            <defaultValue>.gitignore</defaultValue>
+        <requiredProperty key="mongoUsername">
+            <defaultValue>${artifactId}</defaultValue>
+        </requiredProperty>
+        <requiredProperty key="mongoPassword">
+            <defaultValue>${artifactId}</defaultValue>
+        </requiredProperty>
+        <requiredProperty key="modelClass">
+            <defaultValue>Model</defaultValue>
         </requiredProperty>
     </requiredProperties>
 
@@ -39,23 +45,12 @@
                 <include>**/*.java</include>
             </includes>
         </fileSet>
-        <fileSet encoding="utf-8">
-            <directory></directory>
-            <includes>
-                <include>__gitignore__</include>
-            </includes>
-        </fileSet>
         <fileSet filtered="true" encoding="utf-8">
             <directory>docker</directory>
             <includes>
                 <include>**/*.Dockerfile</include>
                 <include>**/*.yml</include>
-            </includes>
-        </fileSet>
-        <fileSet encoding="utf-8">
-            <directory>checkstyle</directory>
-            <includes>
-                <include>*.xml</include>
+                <include>**/*.js</include>
             </includes>
         </fileSet>
     </fileSets>
